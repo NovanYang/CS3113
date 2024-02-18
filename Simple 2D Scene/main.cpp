@@ -108,10 +108,6 @@ GLuint load_texture(const char* filepath)
 
 void initialise()
 {
-    // Initialise video and joystick subsystems
-    SDL_Init(SDL_INIT_VIDEO | SDL_INIT_JOYSTICK);
-
-    // Open the first controller found. Returns null on error
 
     g_display_window = SDL_CreateWindow("Simple 2D Scene",
         SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
@@ -236,11 +232,9 @@ void render() {
     glVertexAttribPointer(g_shader_program.get_tex_coordinate_attribute(), 2, GL_FLOAT, false, 0, texture_coordinates);
     glEnableVertexAttribArray(g_shader_program.get_tex_coordinate_attribute());
 
-    // Bind texture
     draw_object(g_earth_matrix, g_earth_texture_id);
     draw_object(g_moon_matrix, g_moon_texture_id);
 
-    // We disable two attribute arrays now
     glDisableVertexAttribArray(g_shader_program.get_position_attribute());
     glDisableVertexAttribArray(g_shader_program.get_tex_coordinate_attribute());
 
