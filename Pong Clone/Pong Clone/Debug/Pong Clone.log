@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\23226\Desktop\CS3113\Pong Clone\main.cpp(293,55): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\23226\Desktop\CS3113\Pong Clone\main.cpp(293,55): warning C4244:         with
+C:\Users\23226\Desktop\CS3113\Pong Clone\main.cpp(293,55): warning C4244:         [
+C:\Users\23226\Desktop\CS3113\Pong Clone\main.cpp(293,55): warning C4244:             T=float
+C:\Users\23226\Desktop\CS3113\Pong Clone\main.cpp(293,55): warning C4244:         ]
+  Pong Clone.vcxproj -> C:\Users\23226\Desktop\CS3113\Pong Clone\Debug\Pong Clone.exe
