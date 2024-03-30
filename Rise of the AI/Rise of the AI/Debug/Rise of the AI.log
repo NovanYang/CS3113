@@ -1,0 +1,27 @@
+﻿  Entity.cpp
+C:\Users\23226\Desktop\CS3113\Rise of the AI\Entity.h(117,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+  (compiling source file 'Entity.cpp')
+  
+C:\Users\23226\Desktop\CS3113\Rise of the AI\Entity.h(118,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+  (compiling source file 'Entity.cpp')
+  
+  main.cpp
+C:\Users\23226\Desktop\CS3113\Rise of the AI\Entity.h(117,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\23226\Desktop\CS3113\Rise of the AI\Entity.h(118,58): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\23226\Desktop\CS3113\Rise of the AI\main.cpp(152,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\23226\Desktop\CS3113\Rise of the AI\main.cpp(332,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\23226\Desktop\CS3113\Rise of the AI\main.cpp(460,66): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\23226\Desktop\CS3113\Rise of the AI\main.cpp(460,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\23226\Desktop\CS3113\Rise of the AI\main.cpp(461,67): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\23226\Desktop\CS3113\Rise of the AI\main.cpp(461,62): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\23226\Desktop\CS3113\Rise of the AI\main.cpp(470,68): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\23226\Desktop\CS3113\Rise of the AI\main.cpp(470,63): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\23226\Desktop\CS3113\Rise of the AI\main.cpp(473,69): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\23226\Desktop\CS3113\Rise of the AI\main.cpp(473,64): warning C4305: 'argument': truncation from 'double' to 'float'
+  ShaderProgram.cpp
+  Generating Code...
+  Rise of the AI.vcxproj -> C:\Users\23226\Desktop\CS3113\Rise of the AI\Debug\Rise of the AI.exe
