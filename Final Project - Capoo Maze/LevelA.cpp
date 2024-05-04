@@ -65,14 +65,6 @@ void LevelA::initialise()
     // Jumping
     m_state.player->m_jumping_power = 5.0f;
 
-    //attacking
-    // Example indices for attacking animations
-    m_state.player->m_attacking[m_state.player->LEFT] = new int[6] { /* Indices for left attack frames */ };
-    m_state.player->m_attacking[m_state.player->RIGHT] = new int[6] { /* Indices for right attack frames */ };
-    m_state.player->m_attacking[m_state.player->UP] = new int[6] { /* Indices for up attack frames */ };
-    m_state.player->m_attacking[m_state.player->DOWN] = new int[6] { /* Indices for down attack frames */ };
-
-
     /**
      Enemies' stuff */
     GLuint enemy_texture_id = Utility::load_texture("assets/capoo.png");
